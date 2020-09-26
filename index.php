@@ -17,7 +17,7 @@
         <div id="app_div">
 
         </div>
-        <a onclick="nextApp()" id="submit">Next</a>
+        <a onclick="nextApp(d.getElementById('app_div'))" id="submit">Next</a>
     </div>
 
     <?php 
@@ -40,7 +40,7 @@
         var currApp = 0;
         var score = 0;
         var max = 0;
-        loadNextApp();
+        loadNextApp(d.getElementById('app_div'));
     </script>
 </body>
 </html>
