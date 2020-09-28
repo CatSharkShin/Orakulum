@@ -1,5 +1,8 @@
 Követelmény specifikáció:
 
+Praktikusan összefűzött tesztek,
+
+
 Certifikáció nyomtatás:
 -Az "Orákulum" teszt sikeres teljesítéséért
 kapott certifikációt ki lehet nyomtatni, melyen a

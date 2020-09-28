@@ -32,7 +32,8 @@
             {
                 console.log("App's php file could not be loaded");
                 //running the createInput of the next app
-                eval(apps[currApp]+".createInput(app_container)");
+                if(eval("typeof "+apps[currApp]+".createInput === 'function'"))
+                    eval(apps[currApp]+".createInput(app_container)");
             },
             success: function()
             {
@@ -41,6 +42,7 @@
                     //This is a callback function that runs after the file is loaded
                     function(){
                         //running the createInput of the next app
+                    if(eval("typeof "+apps[currApp]+".createInput === 'function'"))
                         eval(apps[currApp]+".createInput(app_container)");
                     }
                 );

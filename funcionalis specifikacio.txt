@@ -13,36 +13,47 @@ csupán két végkimenetele lehet, ámbár a teszt alapján
 kiderülhet, hogy az delikvens cyborg, cyberman organizmus
 vagy esetlegesen choblik. Az alkalmazásunk jótékonysági
 mellékcélja az utolsó choblik megtalálása, emiatt tettük
-bele ezt a szűrési funkciót.A teszt kitöltése után a
-a teljesítmény alapján az alábbi kategóriákba kerülnek
-besorolásra a teszt kitöltői:
+bele ezt a szűrési funkciót.
+
+A teszt kitöltése után a teljesítmény alapján az alábbi
+kategóriákba kerülnek besorolásra a teszt kitöltői:
 robot: 40-50%
 cyberman: 50-60%
 cyborg: 60-70%
 ember: 70-100%
 chlobik: Eredménytül függetlenül 2% esély van arra, hogy a
 kitöltő chobliknak lesz elbírálva a fenti kategóriák helyett.
+
 Az "Orákulum" teszt sikeres teljesítéséért
 kapott certifikációt ki lehet nyomtatni, melyen 
 készítők aláírása szerepel. A kinyomtatni kívánt
 certifikáción szereplő nevet előtte kiválaszthatja
 a felhasználó. Ebből fakadóan, a certifikáción a
 felhasználó által megadott név, a készítők aláírása,
-és a teszt neve.Egy adott téma vagy szempont alapján a felhasználónak
+és a teszt neve.
+
+A tesztben lesz egy képkiválasztós feladat, ahol egy 
+adott téma vagy szempont alapján a felhasználónak
 ki kell választania a megfelelő képet. A megadott képek 
 között lesznek képek melyek megfelelnek a kiválasztási 
 szempontnak, és lesznek olyanok, melyek hasonló környezetből 
 származnak, azonban a megadott kiválasztási szempontnak
-nem felelnek meg.A felhasználónak egy véletlenszerűen generált művelet
-eredményét kell helyesen megadnia. A generált műveletek
-összeadás, kivonás és szorzás lehetnek.
+nem felelnek meg.
+
+A művelet megoldós feladatban a felhasználónak egy 
+véletlenszerűen generált művelet eredményét kell 
+helyesen megadnia. A generált műveletekösszeadás, 
+kivonás és szorzás lehetnek.
 -A generált művelet két számból, és a fent említett
-műveletek egyik operátorából áll.A felhasználónak egy "hibásan" működő jelölőnégyzetet 
-kell bepipálnia.A "hibás" jelölőnégyzet megnyomásakor előre
-definiált esélye van a felhasználónak, hogy az pipálás
-ténylegesen megtörténjen. Ennek fényében, a felhasználónak
-lehet, hogy többször is meg kell nyomnia a jelölőnégyzetet,
-hogy a pipa megjelenjen. Ámbár, a jelölőnégyzet sikeres
-bepipálása után, a pipa megnyomásával el lehet tüntetni
+műveletek egyik operátorából áll.
+
+A kipiálási készség tesztelő feladatban a felhasználónak egy 
+"hibásan" működő jelölőnégyzetet kell bepipálnia.A "hibás" 
+jelölőnégyzet megnyomásakor előre definiált esélye van a 
+felhasználónak, hogy az pipálás ténylegesen megtörténjen.
+ Ennek fényében, a felhasználónak lehet, hogy többször 
+is meg kell nyomnia a jelölőnégyzetet, hogy a pipa 
+megjelenjen. Ámbár, a jelölőnégyzet sikeres bepipálása 
+után, a pipa megnyomásával el lehet tüntetni
 a pipát, így a felhasználó a jelölőnégyzet sikeres 
 bepipálása után is elronthatja eddigi erőfeszítését.

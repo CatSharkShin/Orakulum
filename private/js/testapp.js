@@ -1,5 +1,4 @@
 <script>
-
     var d = document;
     var numofchecks = 5;
 
@@ -22,7 +21,7 @@
 
                 //Label létrehozása, beállítása, appendelése
                 var label = d.createElement("Label");
-                label.setAttribute("for",i);
+                label.setAttribute("for","check_"+i);
                 label.innerHTML = i;
                 app.appendChild(label);
             }
