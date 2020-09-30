@@ -30,6 +30,27 @@ megadott az űrlapnak. Ennek kiküszöbölésére való ez a program.
 - Következő Tesztre való lépés: Gomb segítségével, a teszt következő részére léphet a felhasználó
 
 ## Rendszerre vonatkozó törvények, szabványok, ajánlás
+    Rendszerszabványok:
+    
+    Trello
+
+    Discord
+    
+    Github
+
+    Gitkraken
+
+    Sublime text
+    
+    Visual studio code
+    
+    xampp 3.2.4 
+
+    PHP 7.4.10
+
+    HTML,CSS
+
+    Javascript
 
 ## Jelenlegi üzleti folyamatok modellje
 
