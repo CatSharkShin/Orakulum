@@ -62,6 +62,27 @@ Fejlesztői eszközök:
 ## Architekturális terv
 
 ## Implementációs terv
+### Capcha tesztet készítünk webalkalmazás formájában.
+Egyedi keretrendszerben készítjük alkalmazásunkat, melynek lényege,
+hogy PHP és JavaScript oldalakban formok és függvények segítségével
+külön kezeljük az egyes applikációkat (a teszt részeit), ezáltal
+könnyen áttekinthetővé téve a kódot és könnyebbé téve a léptetés és
+a pontok összesítésének folyamatát.
+Az egyes részalkalmazások elkészítését külön-külön osztjuk fel 
+a fejlesztők között, valamint a keretrendszer és a design
+elkészítését is.
+
+### Használt technólógiák:
+- Trello - projekt szervezése, rendezése
+- Discord - verbális kommunikáció
+- HTML - A weboldal struktúrális vázát adja meg
+- CSS - A kinézethez manipulálására használatos
+- Git, GitHub - Alkalmazás verzióinak követése
+- KitKraken - Git grafikus reprezentációja
+- Rajzolóprogramok az ábrákhoz
+- PHP - elsősorban formokhoz
+- JS - elsősorban az egyes részapplikációkhoz
+- Kódszerkesztők (VS, SubLime, Notepad++, stb.)
 
 ## Tesztterv
 
