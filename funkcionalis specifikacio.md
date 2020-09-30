@@ -67,6 +67,8 @@ háttérben futó, felhasználói viselkedésmintákat figyelő eljárásokig. A
 - Végeredmény
 
 ## Képernyőtervek
+- ![Teszt](teszt.png)
+- ![Eredmény](eredmeny.png)
 
 ## Forgatókönyv
 - Felhasználó: Képes lesz a teszt kitöltésére majd a kitöltés végén a teszt eredményének nyomtatására.
