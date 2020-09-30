@@ -45,7 +45,11 @@ háttérben futó, felhasználói viselkedésmintákat figyelő eljárásokig. A
 6. Az eredmény oldalon egy pdf kiterjesztésű fájl letöltésére lesz lehetősége a felhasználónak, melyen a felhasználó által megadott név, emellett a készítők aláírása fog szerepelni.
 
 ## Használati esetek
-
+### Felhasználó
+- Ő tölti ki a feladatokat
+- Kinyomtathatja a certifikációt
+- Képes navigálni a feladatok közt
+- Megtekintheti a teszt leírását a főoldalon
 ## Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 
 ## Képernyőtervek
@@ -54,14 +58,14 @@ háttérben futó, felhasználói viselkedésmintákat figyelő eljárásokig. A
 - Felhasználó: Képes lesz a teszt kitöltésére majd a kitöltés végén a teszt eredményének nyomtatására.
 
 ## Funkció-követelmény megfeleltetés
-###Funkcionális követelmények megfeleltetése:
+### Funkcionális követelmények megfeleltetése:
 - Nyomtatás: A pontszámokról ettől függetlenül is értesül a tesztet kitöltő felhasználó, nem feltétlen fontos. 6/10
 - Következő Tesztre való lépés: Gomb segítségével, a teszt következő részére léphet a felhasználó, ezért kritikus jelentősséggel bír az applikációban, mivel ha nem működik, az egész program futását befolyásolja. 8/10
 - Kitöltés: Az egyik típusú részfeladat fontos része, mivel a felhasználó a megoldását itt adhatja meg, ami alapján a végeredmény létre fog jönni. 7/10
 - Kép Kiválasztása: Az egyik típusú részfeladat fontos része, mivel a képek kiválasztására kapja a felhasználó a pontszámot. 7/10
 - Jelölőnégyzet használata: Ha a felhasználó nem tud pipát helyezni a Jelölőnégyzetbe, akkor a feladatra nem kap pontot sem, nem szükséges a megfelelő futáshoz. 7/10
 
-###Nem Funkcionális követelmények megfeleltetése:
+### Nem Funkcionális követelmények megfeleltetése:
 - Látványos és egyedülálló dizájn: A szemek kényeztetése csak azután kerül előtérbe, miután már minden megfelelően működik. 5/10
 - Egyszerű, gyorsan értelmezhető, letisztult felhasználói felület: Elképesztően fontos, az egész program magja, ezért a legnagyobb figyelmet igényli. 10/10
 - Részfeladatok megfelelő megjelenítése: Fontos a megfelelő megjelenítés, mivel ha ez nem teljesül, nem garantált, hogy egyértelműen megoldható a feladat. 9/10
