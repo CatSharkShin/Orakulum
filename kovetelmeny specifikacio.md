@@ -82,6 +82,8 @@ bővítése újabb, egyedi megoldásokkal.
 
 ### Nem Funkcionális követelmények:
 - Látványos és egyedülálló dizájn
+- Egyszerű, gyorsan értelmezhető, letisztult felhasználói felület
+- Részfeladatok megfelelő megjelenítése
 
 ## Riportok
 - Kivitelező: Kérem jelemmezze, mire lenne szüksége!
