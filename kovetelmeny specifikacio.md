@@ -1,7 +1,9 @@
 
 # Követelmény specifikáció
+
 ##  Áttekintés
 Egy olyan webalkalmazást fejlesztünk, mellyel bárki bebizonyíthatja magáról, hogy robot-e vagy sem. Ezt a tesztet teljesítve a felhasználó lehetőséget kap teljesítményének bizonyítására, mivel pdf formátumban kap eredményéről certifikációt, melyet kinyomtathat. Az oldalon különböző feladatokat kell sikeresen megoldania a felhasználónak. Ezek a feladatok a felhasználó emberi létét kérdőjelezik meg fantasztikus kacifántosságukkal. Azt gondolhatnánk, hogy a tesztnek csupán két végkimenetele lehet, ámbár a teszt alapján kiderülhet, hogy az delikvens cyborg, cyberman organizmus vagy esetlegesen choblik. Az alkalmazásunk jótékonysági mellékcélja az utolsó choblik megtalálása, emiatt tettük bele ezt a szűrési funkciót.
+
 ## Jelenlegi helyzet
 Vannak olyan robot programok, amelyeket abból a célból készítettek, hogy megtalálja a weboldalon az adat 
 vagy email küldésére képes formokat vagy regisztrációs űrlapokat, és emaileket küldjön vagy regisztráljon a weboldalon. 
@@ -62,8 +64,15 @@ háttérben futó, felhasználói viselkedésmintákat figyelő eljárásokig. A
 bővítése újabb, egyedi megoldásokkal.
 
 ## Igényelt üzleti folyamatok
+1. A felhasználó a főoldalon fog megismerkedni a teszt céljával és az ahhoz tartozó fontos információkkal.
+2. A főoldalon található gombbal átirányításra kerül a tesztre.
+3. Azt átirányítást követően már láthatja is az első teszt feladatot.
+4. A feladat kitöltése után a felhasználó a következő feladathoz léphet egy gomb megnyomásával
+5. A 4. pontot addig ismétli, míg el nem érkezik az eredményt mutató oldalhoz
+6. Az eredmény oldalon egy pdf kiterjesztésű fájl letöltésére lesz lehetősége a felhasználónak, melyen a felhasználó által megadott név, emellett a készítők aláírása fog szerepelni.
 
 ## Követelménylista
+
 ### Funkcionális követelmények:
 - Nyomtatás: Nyomtatásra kész formátumban, PDF kiterjesztésben, a felhasználó az elért eredményéről kap tájékoztatást.
 - Következő Tesztre való lépés: Gomb segítségével, a teszt következő részére léphet a felhasználó.
@@ -85,4 +94,5 @@ bővítése újabb, egyedi megoldásokkal.
 - Megrendelő: Igen, ez talán megkönnyíthetné és élvezetesebbé tenné a teszt kitöltésének folyamatát.
 - Megrendelő: Azt szeretném, ha minden eddigi Captcha tesztekkel való tapasztalataiból a legjobbakat használná fel az applikéció elkészítéséhez.
 - Kivitelező: Rendben, a legjobb tudásunk szerint fogunk cselekedni.
+
 ## Fogalomtár
