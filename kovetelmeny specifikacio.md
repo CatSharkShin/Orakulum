@@ -27,7 +27,10 @@ megadott az űrlapnak. Ennek kiküszöbölésére való ez a program.
 
 ## Funkcionális követelmények
 - Nyomtatás: Nyomtatásra kész formátumban, PDF kiterjesztésben, a felhasználó az elért eredményéről kap tájékoztatást.
-- Következő Tesztre való lépés: Gomb segítségével, a teszt következő részére léphet a felhasználó
+- Következő Tesztre való lépés: Gomb segítségével, a teszt következő részére léphet a felhasználó.
+- Kitöltés: A teszt kérdésére válasz adási lehetőség.
+- Kép Kiválasztása: Megadott téma szerinti képek kiválasztása.
+- Jelölőnégyzet használata: A jelölőnégyzetbe való pipa helyezése.
 
 ## Rendszerre vonatkozó törvények, szabványok, ajánlás
     Rendszerszabványok:
@@ -53,11 +56,33 @@ megadott az űrlapnak. Ennek kiküszöbölésére való ez a program.
     Javascript
 
 ## Jelenlegi üzleti folyamatok modellje
+A Captcha technológiák régóta velünk vannak annak érdekében, hogy a spammerek, illetve a robotok elleni küzdelemből 
+kivegyék a részüket. Az évek során sokat fejlődtek, és az egyszerű, képfelismerésre épülő megoldásoktól eljutottak a 
+háttérben futó, felhasználói viselkedésmintákat figyelő eljárásokig. Alkalmazásunk célja ezeknek a megoldásoknak a 
+bővítése újabb, egyedi megoldásokkal.
 
 ## Igényelt üzleti folyamatok
 
 ## Követelménylista
+### Funkcionális követelmények:
+- Nyomtatás: Nyomtatásra kész formátumban, PDF kiterjesztésben, a felhasználó az elért eredményéről kap tájékoztatást.
+- Következő Tesztre való lépés: Gomb segítségével, a teszt következő részére léphet a felhasználó.
+- Kitöltés: A teszt kérdésére válasz adási lehetőség.
+- Kép Kiválasztása: Megadott téma szerinti képek kiválasztása.
+- Jelölőnégyzet használata: A jelölőnégyzetbe való pipa helyezése.
+
+### Nem Funkcionális követelmények:
+- Látványos és egyedülálló dizájn
 
 ## Riportok
-
+- Kivitelező: Kérem jelemmezze, mire lenne szüksége!
+- Megrendelő: Sokat gondolkodtam azon, hogyan lehetne a Captcha teszteket egy új szintre emelni.
+- Kivitelező: Miért szeretné ezt?
+- Megrendelő: Egy olyan alkalmazás az álmom, ahol nem csak egy teszt a továbblépés feltétele.
+- Kivitelező: Ezt könnyedén orvosolhatjuk, ha különálló részekre bontunk egy tesztet és ellátjuk több, apróbb feladattal.
+- Megrendelő: Igen, valami hasonló megoldásra gondoltam.
+- Kivitelező: Mindezt egy weboldalon lenne a legcélszerűbb megvalósítani, ahol különböző szórakoztatási elemekkel láthatnánk el a részfeladatokat.
+- Megrendelő: Igen, ez talán megkönnyíthetné és élvezetesebbé tenné a teszt kitöltésének folyamatát.
+- Megrendelő: Azt szeretném, ha minden eddigi Captcha tesztekkel való tapasztalataiból a legjobbakat használná fel az applikéció elkészítéséhez.
+- Kivitelező: Rendben, a legjobb tudásunk szerint fogunk cselekedni.
 ## Fogalomtár
