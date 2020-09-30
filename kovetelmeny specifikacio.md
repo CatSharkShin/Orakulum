@@ -98,7 +98,7 @@ bővítése újabb, egyedi megoldásokkal.
 - Kivitelező: Rendben, a legjobb tudásunk szerint fogunk cselekedni.
 
 ## Fogalomtár
-### Használt technológiák:
+### Fogalmak:
 	- bug: hiba a program futása során.
 	- backend: egy adott rendszer alsóbb, tényleges feldolgozást végző rétege.
 	- frontend: A front-end réteg feladata a rendszerből kijutó adatok prezentálása, illetve a bejövő adatok fogadása.
