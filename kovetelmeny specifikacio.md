@@ -7,6 +7,8 @@ Egy olyan webalkalmazást fejlesztünk, mellyel bárki bebizonyíthatja magáró
 ## Vágyálom rendszer
 
 ## Funkcionális követelmények
+- Nyomtatás: Nyomtatásra kész formátumban, PDF kiterjesztésben, a felhasználó az elért eredményéről kap tájékoztatást.
+- Következő Tesztre való lépés: Gomb segítségével, a teszt következő részére léphet a felhasználó
 
 ## Rendszerre vonatkozó törvények, szabványok, ajánlás
 
