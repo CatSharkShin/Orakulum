@@ -9,6 +9,15 @@
     A feltételezett két végkimenetel helyett,a teszt alapján kiderülhet, hogy a felhasználó cyborg, cyberman organizmus vagy esetlegesen choblik. 
     Az alkalmazásunk jótékonysági mellékcélja az utolsó choblik megtalálása, emiatt tettük bele ezt a szűrési funkciót.
 ## Jelenlegi helyzet
+A cél egy általánosan használható captcha program fejlesztése, mely képes megkülönböztetni
+az emberi felhasználót a számítógéptől. A cél továbbá az olyan robot programokkal szembeni védekezés, 
+amelyeket abból a célból készítettek, hogy megtalálja a weboldalon az adat 
+vagy email küldésére képes formokat vagy regisztrációs űrlapokat, és emaileket küldjenek vagy regisztráljanak a weboldalon.
+A cél továbbá, hogy a weboldal tulajdonosát megvédje az esetleges károktól, például attól, 
+hogy tömegesen regisztráljanak a weboldalán mindenféle fura nevű és email című felhasználók, 
+vagy pedig spameket küldenek a weboldal nevében különféle email címekre. 
+Utóbbi esetben a levelek kézbesíthetetlenségéről pattan vissza email arra az email címre, 
+amelyet a weboldal tulajdonosa megadott az űrlapnak.
 
 ## Követelménylista
 ### Funkcionális követelmények:
@@ -57,3 +66,7 @@ háttérben futó, felhasználói viselkedésmintákat figyelő eljárásokig. A
 - Részfeladatok megfelelő megjelenítése: Fontos a megfelelő megjelenítés, mivel ha ez nem teljesül, nem garantált, hogy egyértelműen megoldható a feladat. 9/10
 
 ## Fogalomszótár
+- bug: hiba a program futása során.
+- backend: egy adott rendszer alsóbb, tényleges feldolgozást végző rétege.
+- frontend: A front-end réteg feladata a rendszerből kijutó adatok prezentálása, illetve a bejövő adatok fogadása.
+- Captcha: automatikus teszt, mely képes megkülönböztetni az emberi felhasználót a számítógéptől.
