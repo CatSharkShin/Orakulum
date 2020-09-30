@@ -55,3 +55,7 @@
 - Részfeladatok megfelelő megjelenítése: Fontos a megfelelő megjelenítés, mivel ha ez nem teljesül, nem garantált, hogy egyértelműen megoldható a feladat. 9/10
 
 ## Fogalomszótár
+- bug: hiba a program futása során.
+- backend: egy adott rendszer alsóbb, tényleges feldolgozást végző rétege.
+- frontend: A front-end réteg feladata a rendszerből kijutó adatok prezentálása, illetve a bejövő adatok fogadása.
+- Captcha: automatikus teszt, mely képes megkülönböztetni az emberi felhasználót a számítógéptől.
