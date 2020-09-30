@@ -66,5 +66,9 @@ Fejlesztői eszközök:
 ## Tesztterv
 
 ## Telepítési terv
+- Webes alkalmazás
+A webalkalmazás használatához csupán egy internetkapcsolattal rendelkező számítógépre vagy mobiltelefonra vagy szükségünk, melyen
+valamelyik böngésző, mint például: Google Chrome, Firefox, Safari megtalálható.
+Ha rendelkezünk böngészővel, akkor fel kell keresnünk a weboldalt, amelyet az orakulum.hu címen érhetünk el.
 
 ## Karbantartási terv
