@@ -25,11 +25,11 @@
 
 ### Mérföldkövek
 1. Keretrendszer elkészítése
-2.1 Matek művelet applikáció elkészítése
-2.2 Képválasztási applikáció elkészítése
-2.3 Jelölőnégyzet applikáció
-2.4 Tárgyak megnevezése képről applikáció
-2.5 Nyomtatási művelet elkészítése
+2. 1 Matek művelet applikáció elkészítése
+2. 2 Képválasztási applikáció elkészítése
+2. 3 Jelölőnégyzet applikáció
+2. 4 Tárgyak megnevezése képről applikáció
+2. 5 Nyomtatási művelet elkészítése
 3. Desing elkészítése
 
 ## Üzleti folyamatok modellje
