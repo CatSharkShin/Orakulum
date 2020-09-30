@@ -32,6 +32,10 @@ megadott az űrlapnak. Ennek kiküszöbölésére való ez a program.
 ## Rendszerre vonatkozó törvények, szabványok, ajánlás
 
 ## Jelenlegi üzleti folyamatok modellje
+A Captcha technológiák régóta velünk vannak annak érdekében, hogy a spammerek, illetve a robotok elleni küzdelemből 
+kivegyék a részüket. Az évek során sokat fejlődtek, és az egyszerű, képfelismerésre épülő megoldásoktól eljutottak a 
+háttérben futó, felhasználói viselkedésmintákat figyelő eljárásokig. Alkalmazásunk célja ezeknek a megoldásoknak a 
+bővítése újabb, egyedi megoldásokkal.
 
 ## Igényelt üzleti folyamatok
 
