@@ -39,6 +39,12 @@
 ## Funkcionális terv
 
 ## Fizikai környezet
+A teszt webes környezetben és minden böngészőben reszponzívnak készül el.
+Nincsenek megvásárolt komponenseink.
+Fejlesztői eszközök:
+    Sublime text
+    Visual studio code
+
 
 ## Absztrakt domain modell
 

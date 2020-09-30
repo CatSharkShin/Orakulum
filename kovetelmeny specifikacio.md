@@ -43,6 +43,8 @@ megadott az űrlapnak. Ennek kiküszöbölésére való ez a program.
     
     Github
 
+    Github Desktop
+
     Gitkraken
 
     Sublime text
