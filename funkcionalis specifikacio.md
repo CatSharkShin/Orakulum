@@ -45,7 +45,11 @@ háttérben futó, felhasználói viselkedésmintákat figyelő eljárásokig. A
 6. Az eredmény oldalon egy pdf kiterjesztésű fájl letöltésére lesz lehetősége a felhasználónak, melyen a felhasználó által megadott név, emellett a készítők aláírása fog szerepelni.
 
 ## Használati esetek
-
+### Felhasználó
+- Ő tölti ki a feladatokat
+- Kinyomtathatja a certifikációt
+- Képes navigálni a feladatok közt
+- Megtekintheti a teszt leírását a főoldalon
 ## Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 
 ## Képernyőtervek
