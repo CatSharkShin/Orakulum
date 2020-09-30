@@ -34,6 +34,7 @@
 3. Desing elkészítése
 
 ## Üzleti folyamatok modellje
+![Üzleti folyamatok modellje](uzleti_modell.jpg)
 
 ## Követelmények
 ### Funkcionális Követelmények
