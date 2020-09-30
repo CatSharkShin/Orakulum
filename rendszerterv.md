@@ -36,6 +36,18 @@
 ## Üzleti folyamatok modellje
 
 ## Követelmények
+### Funkcionális Követelmények
+- Feladatok pontszámainak összesítése
+- Feladatok kiértékelése
+- Webes környezeten történő működés
+- Teszt feladatok megfelelő futtatása
+- Továbblépésként funkcionáló gomb működése
+- Eredmények nyomtatásának megfelelő működése
+
+### Nem Funkcionális Követelmények
+- Látványos és egyedülálló dizájn
+- Egyszerű, gyorsan értelmezhető, letisztult felhasználói felület
+- Részfeladatok megfelelő megjelenítése
 
 ## Funkcionális terv
 - Felhasználó: Képes lesz a teszt kitöltésére majd a kitöltés végén a teszt eredményének nyomtatására.
