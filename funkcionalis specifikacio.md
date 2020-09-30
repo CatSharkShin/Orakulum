@@ -11,6 +11,17 @@
 ## Jelenlegi helyzet
 
 ## Követelménylista
+### Funkcionális követelmények:
+- Nyomtatás: Nyomtatásra kész formátumban, PDF kiterjesztésben, a felhasználó az elért eredményéről kap tájékoztatást.
+- Következő Tesztre való lépés: Gomb segítségével, a teszt következő részére léphet a felhasználó.
+- Kitöltés: A teszt kérdésére válasz adási lehetőség.
+- Kép Kiválasztása: Megadott téma szerinti képek kiválasztása.
+- Jelölőnégyzet használata: A jelölőnégyzetbe való pipa helyezése.
+
+### Nem Funkcionális követelmények:
+- Látványos és egyedülálló dizájn
+- Egyszerű, gyorsan értelmezhető, letisztult felhasználói felület
+- Részfeladatok megfelelő megjelenítése
 
 ## Jelenlegi üzleti folyamatok modellje
 
