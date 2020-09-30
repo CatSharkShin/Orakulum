@@ -1,3 +1,4 @@
+
 # Rendszerterv
 ## A rendszer célja,
 hogy a felhasználó egy tesztet tudjon teljesíteni melyből kiderül, hogy a felhasználó ember, cyborg, cyberman, vagy choblik. A felhasználó a teszt végén értesítést kap eredményéről százalék formában, és lehetősége nyílik egy certifikáció kinyomtatására. Ahhoz, hogy a teszt pontos legyen, és a felhasználót ne akadályozza a felület, egy egyszerű, gyorsan értelmezhető letisztult felhasználói felületet kap az alkalmazás. A felhasználó minden feladat után pontokat kap, majd a végén ezt összegezve lesz kiszámolva a végeredménye. A gyors működés és az alkalmazás kis mérete miatt a rendszer fejlesztése nagyrészt Javascripten fog alapulni.
@@ -10,7 +11,7 @@ hogy a felhasználó egy tesztet tudjon teljesíteni melyből kiderül, hogy a f
 - Developer: Sirák Norbert
 
 ### Egyéni Projekt Munkálatok
-- Desing elkészítése: Csontos Dominik
+- Design elkészítése: Csontos Dominik
 - Keretrendszer elkészítése: Palotai Martin
 - Matek művelet applikáció elkészítése: Kóder László
 - Képválasztási applikáció elkészítése: Sirák Norbert
@@ -26,12 +27,12 @@ hogy a felhasználó egy tesztet tudjon teljesíteni melyből kiderül, hogy a f
 ### Mérföldkövek
 1. Keretrendszer elkészítése
 2. Applikációk elkészítése
-- Matek művelet applikáció elkészítése
-- Képválasztási applikáció elkészítése
-- Jelölőnégyzet applikáció
-- Tárgyak megnevezése képről applikáció
-- Nyomtatási művelet elkészítése
-3. Desing elkészítése
+	- Matek művelet applikáció elkészítése
+	- Képválasztási applikáció elkészítése
+	- Jelölőnégyzet applikáció
+	- Tárgyak megnevezése képről applikáció
+	- Nyomtatási művelet elkészítése
+3. Design elkészítése
 
 ## Üzleti folyamatok modellje
 ![Üzleti folyamatok modellje](uzleti_modell.jpg)
@@ -46,12 +47,12 @@ hogy a felhasználó egy tesztet tudjon teljesíteni melyből kiderül, hogy a f
 - Eredmények nyomtatásának megfelelő működése
 
 ### Nem Funkcionális Követelmények
-- Látványos és egyedülálló dizájn
-- Egyszerű, gyorsan értelmezhető, letisztult felhasználói felület
+- **Látványos** és egyedülálló dizájn
+- **Egyszerű**, gyorsan értelmezhető, **letisztult** felhasználói felület
 - Részfeladatok megfelelő megjelenítése
 
 ## Funkcionális terv
-- Felhasználó: Képes lesz a teszt kitöltésére majd a kitöltés végén a teszt eredményének nyomtatására.
+- **Felhasználó:** Képes lesz a teszt kitöltésére majd a kitöltés végén a teszt eredményének nyomtatására.
 
 ## Fizikai környezet
 A teszt webes környezetben és minden böngészőben reszponzívnak készül el.
@@ -88,12 +89,8 @@ elkészítését is.
 - JS - elsősorban az egyes részapplikációkhoz
 - Kódszerkesztők (VS, SubLime, Notepad++, stb.)
 
-## Tesztterv
-
 ## Telepítési terv
 - Webes alkalmazás
 A webalkalmazás használatához csupán egy internetkapcsolattal rendelkező számítógépre vagy mobiltelefonra vagy szükségünk, melyen
 valamelyik böngésző, mint például: Google Chrome, Firefox, Safari megtalálható.
 Ha rendelkezünk böngészővel, akkor fel kell keresnünk a weboldalt, amelyet az orakulum.hu címen érhetünk el.
-
-## Karbantartási terv

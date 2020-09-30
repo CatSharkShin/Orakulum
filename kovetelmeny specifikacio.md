@@ -1,4 +1,5 @@
 
+
 # Követelmény specifikáció
 
 ##  Áttekintés
@@ -14,56 +15,37 @@ Utóbbi esetben a levelek kézbesíthetetlenségéről pattan vissza email arra 
 megadott az űrlapnak. Ennek kiküszöbölésére való ez a program.
 
 ## Vágyálom rendszer
-    Egy olyan webalkalmazást fejlesztése a cél, mellyel egy személy bebizonyíthatja magáról, hogy robot-e vagy sem.
-    
-    Tökéletes esetben egy olyan tesztet hozunk létre melyet teljesítve a felhasználó kihívások sorozatával 
+- Egy olyan webalkalmazást fejlesztése a cél, mellyel egy személy bebizonyíthatja magáról, hogy robot-e vagy sem.
+-  Tökéletes esetben egy olyan tesztet hozunk létre melyet teljesítve a felhasználó kihívások sorozatával 
     bizonyíthatja emberi mivoltát. 
-    
-    A teszt eredménye szempontjából szeretnénk megvalósítani, hogy több kategória is lehetséges legyen a felhasználó teljesítménye alapján. 
-    
-    Az első feladat sikeres teljesítése az ideális esetben: Több képsorozat közül kiválasztja a feladatban megadottat.
-    
-    A második feladat sikeres teljesítése az ideális esetben: Egy véletlenszerűen generált matematikai művelet eredményét helyesen adja meg.
-    
-    A harmadik feladat sikeres teljesítése az ideális esetben: Jelölőnégyzetek közül kell kiválasztania a megfelelőt.
+- A teszt eredménye szempontjából szeretnénk megvalósítani, hogy több kategória is lehetséges legyen a felhasználó teljesítménye alapján. 
+- Az első feladat sikeres teljesítése az ideális esetben: Több képsorozat közül kiválasztja a feladatban megadottat.
+- A második feladat sikeres teljesítése az ideális esetben: Egy véletlenszerűen generált matematikai művelet eredményét helyesen adja meg.
+- A harmadik feladat sikeres teljesítése az ideális esetben: Jelölőnégyzetek közül kell kiválasztania a megfelelőt.
 
 ## Funkcionális követelmények
-- Nyomtatás: Nyomtatásra kész formátumban, PDF kiterjesztésben, a felhasználó az elért eredményéről kap tájékoztatást.
-- Következő Tesztre való lépés: Gomb segítségével, a teszt következő részére léphet a felhasználó.
-- Kitöltés: A teszt kérdésére válasz adási lehetőség.
-- Kép Kiválasztása: Megadott téma szerinti képek kiválasztása.
-- Jelölőnégyzet használata: A jelölőnégyzetbe való pipa helyezése.
+- **Nyomtatás:** Nyomtatásra kész formátumban, PDF kiterjesztésben, a felhasználó az elért eredményéről kap tájékoztatást.
+- **Következő Tesztre való lépés:** Gomb segítségével, a teszt következő részére léphet a felhasználó.
+- **Kitöltés:** A teszt kérdésére válasz adási lehetőség.
+- **Kép Kiválasztása:** Megadott téma szerinti képek kiválasztása.
+- **Jelölőnégyzet használata:** A jelölőnégyzetbe való pipa helyezése.
 
 ## Rendszerre vonatkozó törvények, szabványok, ajánlás
-    Rendszerszabványok:
-    
-    Trello
-
-    Discord
-    
-    Github
-
-    Github Desktop
-
-    Gitkraken
-
-    Sublime text
-    
-    Visual studio code
-    
-    xampp 3.2.4 
-
-    PHP 7.4.10
-
-    HTML,CSS
-
-    Javascript
+### Rendszerszabványok:
+- Trello
+- Discord
+- Github
+- Github Desktop
+- Gitkraken
+- Sublime text
+- Visual studio code
+- xampp 3.2.4 
+- PHP 7.4.10
+- HTML,CSS
+- Javascript
 
 ## Jelenlegi üzleti folyamatok modellje
-A Captcha technológiák régóta velünk vannak annak érdekében, hogy a spammerek, illetve a robotok elleni küzdelemből 
-kivegyék a részüket. Az évek során sokat fejlődtek, és az egyszerű, képfelismerésre épülő megoldásoktól eljutottak a 
-háttérben futó, felhasználói viselkedésmintákat figyelő eljárásokig. Alkalmazásunk célja ezeknek a megoldásoknak a 
-bővítése újabb, egyedi megoldásokkal.
+A Captcha technológiák régóta velünk vannak annak érdekében, hogy a spammerek, illetve a robotok elleni küzdelemből kivegyék a részüket. Az évek során sokat fejlődtek, és az egyszerű, képfelismerésre épülő megoldásoktól eljutottak a háttérben futó, felhasználói viselkedésmintákat figyelő eljárásokig. Alkalmazásunk célja ezeknek a megoldásoknak a bővítése újabb, egyedi megoldásokkal.
 
 ## Igényelt üzleti folyamatok
 1. A felhasználó a főoldalon fog megismerkedni a teszt céljával és az ahhoz tartozó fontos információkkal.
@@ -101,9 +83,9 @@ bővítése újabb, egyedi megoldásokkal.
 
 ## Fogalomtár
 ### Fogalmak:
-	- bug: hiba a program futása során.
-	- backend: egy adott rendszer alsóbb, tényleges feldolgozást végző rétege.
-	- frontend: A front-end réteg feladata a rendszerből kijutó adatok prezentálása, illetve a bejövő adatok fogadása.
-	- Captcha: automatikus teszt, mely képes megkülönböztetni az emberi felhasználót a számítógéptől.
-	
+- **bug:** hiba a program futása során.
+- **backend:** egy adott rendszer alsóbb, tényleges feldolgozást végző rétege.
+- **frontend:** A front-end réteg feladata a rendszerből kijutó adatok prezentálása, illetve a bejövő adatok fogadása.
+- **Captcha:** automatikus teszt, mely képes megkülönböztetni az emberi felhasználót a számítógéptől.
+
 	
