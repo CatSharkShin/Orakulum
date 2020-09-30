@@ -2,7 +2,6 @@
 ## A rendszer célja,
 
 ## Projektterv
-
 ### Szerepkörök
 - Designer: Csontos Dominik
 - Developer: Palotai Martin
