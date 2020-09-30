@@ -98,11 +98,10 @@ bővítése újabb, egyedi megoldásokkal.
 - Kivitelező: Rendben, a legjobb tudásunk szerint fogunk cselekedni.
 
 ## Fogalomtár
-	### Használt technológiák:
-	- PHP - a PHP egy általános szerveroldali szkriptnyelv dinamikus weblapok készítésére.
-	- JavaScript - egy kis erőforrás-igényű, értelmezett vagy JIT-fordított programozási nyelv elsőrendű függvényekkel.
-	- Trello - projekt kezelésére használt felület.
-	- Git, GitHub - verziók kezelésére.
-	- Discord - verbális kommunikációra használt program.
+### Használt technológiák:
+	- bug: hiba a program futása során.
+	- backend: egy adott rendszer alsóbb, tényleges feldolgozást végző rétege.
+	- frontend: A front-end réteg feladata a rendszerből kijutó adatok prezentálása, illetve a bejövő adatok fogadása.
+	- Captcha: automatikus teszt, mely képes megkülönböztetni az emberi felhasználót a számítógéptől.
 	
 	
