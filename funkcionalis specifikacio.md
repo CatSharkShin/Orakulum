@@ -51,6 +51,20 @@ háttérben futó, felhasználói viselkedésmintákat figyelő eljárásokig. A
 - Képes navigálni a feladatok közt
 - Megtekintheti a teszt leírását a főoldalon
 ## Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
+- Első feladat: Képválasztás, ki kell választani a megfelelő képeket szöveg alapján
+- Több kép is megjelenik egymást követően
+- Pontszámok összesítése
+- Next
+- Második feladat: Matematikai feladat megoldása
+- Egymás után több, különböző operátorokkal és operandusokkal
+- A felhasználó csak az eredményt írja be
+- Pontszámok összesítése
+- Next
+- Harmadik feladat: kép alapján kiválasztani, mi van rajta
+- Checkboxokat kell kipipálni
+- Pontszámok összesítése
+- Next
+- Végeredmény
 
 ## Képernyőtervek
 
