@@ -49,6 +49,7 @@ amelyet a weboldal tulajdonosa megadott az űrlapnak.
 ## Képernyőtervek
 
 ## Forgatókönyv
+- Felhasználó: Képes lesz a teszt kitöltésére majd a kitöltés végén a teszt eredményének nyomtatására.
 
 ## Funkció-követelmény megfeleltetés
 ###Funkcionális követelmények megfeleltetése:
