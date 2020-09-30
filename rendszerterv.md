@@ -59,9 +59,6 @@ Fejlesztői eszközök:
     Sublime text
     Visual studio code
 
-
-## Absztrakt domain modell
-
 ## Architekturális terv
 
 ## Implementációs terv
