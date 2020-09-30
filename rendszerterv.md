@@ -60,6 +60,9 @@ Fejlesztői eszközök:
     Visual studio code
 
 ## Architekturális terv
+- A tesztfeladatok külön fejlesztéséhez egy összekötő kontroller kell mely Jquery és PHP alapon működik.
+- A feladatokat összekötő kontroller a feladatokat leíró PHP fájlokat/javascript funkciókat és hozzá megírt tesztelő javascript funkciókat hív meg és ezek által összegzi a pontszámot.
+- A feladatok összefűzéséért egy PHP asszociatív tömb lesz felelős melyben sorba rendezhetjük a szerepeltetni kívánt feladatokat.
 
 ## Implementációs terv
 ### Capcha tesztet készítünk webalkalmazás formájában.
