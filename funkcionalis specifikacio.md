@@ -71,7 +71,12 @@ háttérben futó, felhasználói viselkedésmintákat figyelő eljárásokig. A
 - ![Eredmény](eredmeny.png)
 
 ## Forgatókönyv
-- **Felhasználó:** Képes lesz a teszt kitöltésére majd a kitöltés végén a teszt eredményének nyomtatására.
+1. A felhasználó a főoldalon fog megismerkedni a teszt céljával és az ahhoz tartozó fontos információkkal.
+2. A főoldalon található gombbal átirányításra kerül a tesztre.
+3. Azt átirányítást követően már láthatja is az első teszt feladatot.
+4. A feladat kitöltése után a felhasználó a következő feladathoz léphet egy gomb megnyomásával
+5. A 4. pontot addig ismétli, míg el nem érkezik az eredményt mutató oldalhoz
+6. Az eredmény oldalon egy pdf kiterjesztésű fájl letöltésére lesz lehetősége a felhasználónak, melyen a felhasználó által megadott név, emellett a készítők aláírása fog szerepelni.
 
 ## Funkció-követelmény megfeleltetés
 ### Funkcionális követelmények megfeleltetése:
