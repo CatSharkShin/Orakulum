@@ -38,6 +38,7 @@
 ## Követelmények
 
 ## Funkcionális terv
+- Felhasználó: Képes lesz a teszt kitöltésére majd a kitöltés végén a teszt eredményének nyomtatására.
 
 ## Fizikai környezet
 A teszt webes környezetben és minden böngészőben reszponzívnak készül el.
