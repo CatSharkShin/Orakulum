@@ -33,6 +33,8 @@ amelyet a weboldal tulajdonosa megadott az űrlapnak.
 - Részfeladatok megfelelő megjelenítése
 
 ## Jelenlegi üzleti folyamatok modellje
+A Captcha technológiák régóta nagy jelentőséggel bírnak. Az évek során sokat fejlődtek, és az egyszerű, képfelismerésre épülő megoldásoktól eljutottak a 
+háttérben futó, felhasználói viselkedésmintákat figyelő eljárásokig. Alkalmazásunk célja ezeknek a bővítése újabb, egyedi megoldásokkal.
 
 ## Igényelt üzleti folyamatok
 1. A felhasználó a főoldalon fog megismerkedni a teszt céljával és az ahhoz tartozó fontos információkkal.
