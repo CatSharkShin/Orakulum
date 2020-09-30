@@ -47,7 +47,7 @@ kivonás és szorzás lehetnek.
 -A generált művelet két számból, és a fent említett
 műveletek egyik operátorából áll.
 
-A kipiálási készség tesztelő feladatban a felhasználónak egy 
+A kipipálási készség tesztelő feladatban a felhasználónak egy 
 "hibásan" működő jelölőnégyzetet kell bepipálnia.A "hibás" 
 jelölőnégyzet megnyomásakor előre definiált esélye van a 
 felhasználónak, hogy az pipálás ténylegesen megtörténjen.
