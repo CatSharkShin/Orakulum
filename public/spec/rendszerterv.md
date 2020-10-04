@@ -35,7 +35,7 @@ hogy a felhasználó egy tesztet tudjon teljesíteni melyből kiderül, hogy a f
 3. Design elkészítése
 
 ## Üzleti folyamatok modellje
-![Üzleti folyamatok modellje](public/pics/uzleti_modell.jpg)
+![Üzleti folyamatok modellje](./public/pics/uzleti_modell.jpg)
 
 ## Követelmények
 ### Funkcionális Követelmények
