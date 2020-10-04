@@ -55,6 +55,33 @@
 
             picsTable = '<table border=7px id=imgTable>' + picsTable + '</table>';
             $(picsTable).appendTo(app); // tábla megjelenítése az oldalon
+
+            // Képek megjelenítése a táblában:
+            for (var i = 0; i<imgArray.length; i++) {
+                let img = d.createElement('img');
+                img.id = 'pic' + i; // egyedi id-ik styling-hoz, ha szükséges
+                img.src = imgArray[i];
+
+                img.style.height = (picSize - 10) + 'px';
+                img.style.width = (picSize - 10) + 'px';
+
+                let clicked = false; // segédváltozó eventListenerhez (többszöri click kiküszöbölése fadingnél)
+                // Pontszerzés és pontvesztés megvalósítása, illetve kép fading kattintásra:
+                img.addEventListener('click', function() {
+                    if (!clicked) {
+                        if (img.src.includes("nem")) {
+                            correctClicks--;
+                        } else if (img.src.includes("busz")) {
+                            correctClicks++;
+                        }
+
+                        clicked = true;
+                        $(img).fadeOut(1500);
+                    }
+                });
+                
+                d.getElementById('picSelect' + i).appendChild(img)
+            }
             
         }
 
