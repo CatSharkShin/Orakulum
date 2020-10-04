@@ -12,7 +12,9 @@
     class KepvalasztasApp{
 
         static createInput(app) {
+        	var picsTable = ''; // változó a tábla létrehozásához szükséges html elemek tárolására
     		var tRowCol = 3; // meghatározza a tábla sorainak és oszlopainak a számát (tRowCol * tRowCol)
+    		var picSize = 400 / tRowCol; // a tábla mérete sor -és oszlopszám változás után is 400px
 
     		var imgArray = new Array();
     		var notBusNum = 0; // segédváltozó a NEM buszos képek sorszámozásához (az alábbi for ciklusban)
@@ -35,6 +37,25 @@
         		imgArray[j] = temp;
     		}
 
+    		var imgNum = 0; // a <td> elemek id-jének meghatározásához a képek száma alapján
+
+			// A tábla elemeinek eltárolása, ami a kattintható képeket tartalmazza majd:
+            for(var row=0; row<tRowCol; row++){
+
+            	picsTable += '<tr>';
+
+            	for (var col=0; col<tRowCol; col++){
+            		picsTable += '<td id=picSelect' + imgNum + 
+            			' height=' + picSize + 'px width=' + picSize +'px></td>';
+            		imgNum++;
+            	}
+
+            	picsTable += '</tr>';
+            }
+
+            picsTable = '<table border=7px id=imgTable>' + picsTable + '</table>';
+            $(picsTable).appendTo(app); // tábla megjelenítése az oldalon
+            
         }
 
         static checkInput(app) {
