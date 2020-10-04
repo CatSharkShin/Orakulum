@@ -1,0 +1,1 @@
+<p>Válaszd ki a képeket, amelyeken busz látható!</p>

@@ -43,7 +43,7 @@ háttérben futó, felhasználói viselkedésmintákat figyelő eljárásokig. A
 5. A 4. pontot addig ismétli, míg el nem érkezik az eredményt mutató oldalhoz
 6. Az eredmény oldalon egy pdf kiterjesztésű fájl letöltésére lesz lehetősége a felhasználónak, melyen a felhasználó által megadott név, emellett a készítők aláírása fog szerepelni.
 ## Használati esetek
-![Üzleti modell](./public/pics/uzleti_modell.jpg)
+![Üzleti modell](../pics/uzleti_modell.jpg)
 ### Felhasználó
 - Ő tölti ki a feladatokat
 - Kinyomtathatja a certifikációt
@@ -67,8 +67,8 @@ háttérben futó, felhasználói viselkedésmintákat figyelő eljárásokig. A
 - Végeredmény
 
 ## Képernyőtervek
-- ![Teszt](./public/pics/teszt.png)
-- ![Eredmény](./public/pics/eredmeny.png)
+- ![Teszt](../pics/teszt.png)
+- ![Eredmény](../pics/eredmeny.png)
 
 ## Forgatókönyv
 1. A felhasználó a főoldalon fog megismerkedni a teszt céljával és az ahhoz tartozó fontos információkkal.

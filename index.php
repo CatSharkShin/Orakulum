@@ -26,6 +26,7 @@
             $AppNames=[
                 "GyakApp",
                 "TestApp",
+                //"KepvalasztasApp",
             ];
 
 
