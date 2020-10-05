@@ -1,1 +1,1 @@
-<p>This was loaded before the app function</p>
+<p class="text-dark">This was loaded before the app function</p>

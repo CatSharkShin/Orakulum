@@ -4,21 +4,32 @@
  ?>
 
 <html>
-<head>
+<head>    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
     <title>Orákulum</title>
+<style>
+body{
+    vertical-align:;
+
+}
+h3{
+    
+}
+.bg-secondary{
+    background-color: #24E3D1 !important;
+}
+</style>
 </head>
 
-<body>
+<body class="bg-secondary">
     
-    <div style="text-align:center">
-        <h3>Do what you are told to do</h3>
+    <div class="text-center">
+        <h3 class="text-dark">Do what you are told to do</h3>
         <div id="app_div">
 
         </div>
-        <a onclick="nextApp(d.getElementById('app_div'))" id="submit">Next</a>
+        <button type="button" class="btn btn-outline-info" onclick="nextApp(d.getElementById('app_div'))" id="submit">Next</button>
     </div>
 
     <?php 

@@ -1,1 +1,1 @@
-<p>Válaszd ki a képeket, amelyeken busz látható!</p>
+<p class="text-dark">Válaszd ki a képeket, amelyeken busz látható!</p>

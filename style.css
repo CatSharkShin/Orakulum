@@ -1,7 +1,6 @@
+.bg-primary{
+    background-color: white;
+}
 body{
-            font-size:42px;
-            -webkit-user-select: none;
-             -moz-user-select: -moz-none;
-              -ms-user-select: none;
-                  user-select: none;
-        }
+    vertical-align: middle;
+}
