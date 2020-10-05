@@ -9,23 +9,30 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
     <title>Orákulum</title>
 <style>
-body{
-    vertical-align:;
-
+.bg-secondary{
+    background-color: #8BE2E5 !important;
 }
 h3{
-    
+    color: #17B5A5 !important;
 }
-.bg-secondary{
-    background-color: #24E3D1 !important;
+div{
+    padding-bottom: 50px;
 }
+body{
+    margin: 25px;
+        width: 95%;
+        border: #37A3D2;
+        border-width:5px;  
+        border-style:outset;
+}
+
 </style>
 </head>
 
 <body class="bg-secondary">
     
     <div class="text-center">
-        <h3 class="text-dark">Do what you are told to do</h3>
+        <h3>Do what you are told to do</h3>
         <div id="app_div">
 
         </div>
