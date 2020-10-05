@@ -3,6 +3,14 @@
     but you can read it so you understand how your functions are being/will be used.
     */
     function nextApp(app_container){
+        
+        
+        //Ezekhez nem tudtam hozzáadni a stylet ez kellene:
+        //app-div input{
+        //color: #17B5A5 !important;
+        //font-size: 36px;}  
+
+
         //apps: app names from the php AppNames var
         //currApp: current App(0->1...)
         //eval(apps[currApp]+".checkInput()")

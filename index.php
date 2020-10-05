@@ -20,10 +20,14 @@ div{
 }
 body{
     margin: 25px;
-        width: 95%;
-        border: #37A3D2;
-        border-width:5px;  
-        border-style:outset;
+    width: 95%;
+    border: #37A3D2;
+    border-width:5px;  
+    border-style:outset;
+}
+#app-div input{
+    color: #17B5A5 !important;
+    font-size: 36px;
 }
 
 </style>
