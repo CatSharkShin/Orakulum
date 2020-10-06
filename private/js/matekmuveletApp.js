@@ -1,65 +1,69 @@
 <script>
 
 var d = document;
-var maxp = 5;
+var maxp = 3;
 var ach = 0;
 
 class MatekmuveletApp{
 
-static createInput(app) {
-    let operators = ["+","-","*"];
-    let a = Math.floor(Math.random() * 10) + 1;
-    let b = Math.floor(Math.random() * 10) + 1;
-    let random = Math.floor(Math.random() * 3);
-    let o = operators[random];
+    static createInput(app) {
+        let operators = ["+","-","*"];
+        let a, b, o, random, input, result;
+        let iterator = 0;
 
-    let para = d.createElement("P");
-    para.innerText = a+""+o+""+b;
-    app.appendChild(para);
+        ujMuvelet();
 
-    let result = 0;
-    if (random == 0)
-    {
-        result = a + b;
+        function ujMuvelet() {
+            a = Math.floor(Math.random() * 10) + 1;
+            b = Math.floor(Math.random() * 10) + 1;
+            random = Math.floor(Math.random() * 3);
+            o = operators[random];
+
+            let para = d.createElement("P");
+            para.innerText = a+""+o+""+b;
+            app.appendChild(para);
+
+            result = 0;
+
+            if (random == 0) {
+                result = a + b;
+            } else if (random == 1) {
+                result = a - b;
+            } else if (random == 2) {
+                result = a * b;
+            }
+
+            var x = d.createElement("INPUT");
+            x.setAttribute("type", "text");
+            app.appendChild(x);
+        
+            var btn = d.createElement("BUTTON");
+            btn.innerHTML = "Oké!";
+            btn.addEventListener("click", function(){
+
+                app.removeChild(btn);
+                app.removeChild(x);
+                app.removeChild(para);
+                
+                input = x.value;
+                iterator++;
+
+                if (input == result) {
+                    ach++;
+                } else {
+                    ach--;
+                }
+
+                if (iterator < maxp) 
+                    ujMuvelet();
+            });
+
+            app.appendChild(btn);
+        }
     }
-    if (random == 1)
-    {
-        result = a - b;
-    }
-    if (random == 2)
-    {
-        result = a * b;
-    }
 
-    var x = d.createElement("INPUT");
-    x.setAttribute("type", "text");
-    app.appendChild(x);
-
-    let input = 0;
-
-    function getValueX() {
-        input = x.value;
-    }
-
-    
-    var btn = d.createElement("BUTTON");
-    btn.innerHTML = "Oké!";
-    btn.addEventListener("click", getValueX());
-    app.appendChild(btn);
-
-    if (input == result)
-    {
-        ach++;
-    }
-    else
-    {
-        ach--;
-    }
-
-    }
-
-static checkInput(app) {
-    return {max: maxp, score: ach};
+    static checkInput(app) {
+        return {max: maxp, score: ach};
     }
 
 }
