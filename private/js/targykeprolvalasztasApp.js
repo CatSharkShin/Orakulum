@@ -71,9 +71,21 @@ class TargykeprolvalasztasApp{
 	}
 
 	static checkInput(app) {
-	    return {max: maxPoint, score: pointsAch};
-	    }
 
+		let cb = '';
+
+		for(var i=0; i<maxPoint*2; i++){
+			cb = d.getElementById("cbObjSelect" + i)
+
+		    if(cb.checked && cb.className == "objOnPic")
+		        pointsAch++;
+		    else if (cb.checked && cb.className == "objNotOnPic")
+		    	pointsAch--;
+		}
+
+	    return {max: maxPoint, score: pointsAch};
 	}
+
+}
 
 </script>

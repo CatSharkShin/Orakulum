@@ -47,10 +47,10 @@ body{
             //The name of the class and the file it is in has to be the same.
             //HERE GOES YOUR CLASS NAME:
             $AppNames=[
-                //"CheckTest",
-                //"CheckerApp",
-                //"KepvalasztasApp",
-                //"TargykeprolvalasztasApp",
+                "CheckTest",
+                "CheckerApp",
+                "KepvalasztasApp",
+                "TargykeprolvalasztasApp",
                 "MatekmuveletApp"
             ];
 
