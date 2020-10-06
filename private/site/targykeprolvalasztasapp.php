@@ -10,6 +10,6 @@
 </head>
 <body>
 <p>Válaszd ki a felsorolt tárgyak közül a képen szereplőket!</p>
-<img src="public/pics/targyvalasztas.jpg" alt="targyvalasztas">
+<img src="public/pics/targyvalasztas.jpg" alt="targyvalasztas" width="600px" height="600px">
 </body>
 </html>
