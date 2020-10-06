@@ -16,6 +16,10 @@ static createInput(app) {
     para.innerText = a+""+o+""+b;
     app.appendChild(para);
 
+    var x = d.createElement("INPUT");
+    x.setAttribute("type", "text");
+    app.appendChild(x);
+
     }
 
 static checkInput(app) {
