@@ -50,6 +50,24 @@ class TargykeprolvalasztasApp{
 
 		stringShuffleInArray(allObjArray);
 
+		// Checkboxok és label-ek legenerálása, megjelenítése:
+		for (var i=0; i<maxPoint*2; i++){
+			let checkBox = d.createElement("INPUT");
+			checkBox.setAttribute("type", "checkbox");
+			checkBox.setAttribute("id", "cbObjSelect" + i);
+
+			if (objOnPic.includes(allObjArray[i]))
+				checkBox.setAttribute("class", "objOnPic");
+			else checkBox.setAttribute("class", "objNotOnPic");
+
+			let label = d.createElement('label');
+			label.htmlFor = "cbObjSelect" + i;
+			label.innerHTML = allObjArray[i];
+
+			$(checkBox).appendTo("#objSelDiv");
+			$(label).appendTo("#objSelDiv");
+		}
+
 	}
 
 	static checkInput(app) {
