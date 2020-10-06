@@ -3,6 +3,7 @@
 var d = document;
 var maxPoint = 5;
 var pointsAch = 0;
+var allObjArray = new Array();
 
 class TargykeprolvalasztasApp{
 
