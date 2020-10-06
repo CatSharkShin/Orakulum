@@ -17,7 +17,7 @@ hogy a felhasználó egy tesztet tudjon teljesíteni melyből kiderül, hogy a f
 - Képválasztási applikáció elkészítése: Sirák Norbert
 - Jelölőnégyzet applikáció: Csontos Dominik
 - Nyomtatási művelet elkészítése: Palotai Martin
-- Tárgyak megnevezése képről applikáció: Sirák Norbert
+- Tárgyak megnevezése képről applikáció: Kóder László, Sirák Norbert
 
 ### Közös feladatok
 - Követelmény Specifikáció megírásában történő közreműködés
