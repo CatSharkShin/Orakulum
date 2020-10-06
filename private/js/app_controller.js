@@ -27,8 +27,8 @@
         }
     }
     function loadNextApp(app_container){
-        //Cleaning the div
-        app_container.innerHTML = "";
+        //Cleaning the div and adding a placeholder for the user to know whats happening
+        app_container.innerHTML = "Következő feladat betöltése...";
         //Loading the corresponding php file before running the function
         //This way you have two options to generate a "test form"
         var sitepath = "private/site/"+apps[currApp].toLowerCase()+".php";

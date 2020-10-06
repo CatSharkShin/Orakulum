@@ -2,7 +2,7 @@
     var d = document;
     var numofchecks = 5;
 
-    class TestApp{
+    class CheckerApp{
         //The Class name has to be the same as the filename, letter case doesnt matter. 
         static createInput(app) {
             /*
@@ -15,6 +15,7 @@
                         type: "checkbox",
                         name: i,
                         id: "check_"+i,
+                        class: "checkbox",
                         //Random h checkolt-e
                         checked: Math.random()<0.5,
                 }).appendTo(app);
@@ -22,6 +23,7 @@
                 //Label létrehozása, beállítása, appendelése
                 var label = d.createElement("Label");
                 label.setAttribute("for","check_"+i);
+                label.setAttribute("class","checkbox_label");
                 label.innerHTML = i;
                 app.appendChild(label);
             }
