@@ -2,6 +2,9 @@
     var d = document;
     class CheckTest{
         static createInput(app){
+        //Change event:
+        //If it is checked, generate a random number
+        //If it's under 0.8, uncheck the checkbox
         $('#checkbox').change(function() {
                 var isChecked = $(this).is(':checked');
                 if (isChecked) {
@@ -11,6 +14,7 @@
             });
         }
         static checkInput(app){
+            //Checking if the checkbox is checked
             var isChecked = d.getElementById("checkbox").checked;
             if(isChecked)
                 return {max: 1,score:1}
