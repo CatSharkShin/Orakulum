@@ -50,7 +50,8 @@ body{
                 //"CheckTest",
                 //"CheckerApp",
                 //"KepvalasztasApp",
-                "TargykeprolvalasztasApp",
+                //"TargykeprolvalasztasApp",
+                "MatekmuveletApp"
             ];
 
 

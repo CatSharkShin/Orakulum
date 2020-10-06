@@ -1,6 +1,8 @@
 <script>
 
-class matekmuveletApp{
+var d = document;
+
+class MatekmuveletApp{
 
 static createInput(app) {
 
