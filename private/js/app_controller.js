@@ -51,8 +51,17 @@
     function done(){
         $('#app_div').load("private/site/result.php",function(){
             var percent = score/max*100;
-            var species;
-            $('#result').html(percent+"%, you are a(an): ");
+            var species = "ember";
+            if(percent < 70){
+                if(percent < 60)
+                    if(percent < 50)
+                        species = "robot";
+                    else
+                        species = "cyberman";
+                else
+                    species = "cyborg";
+            }
+            $('#result').html(percent+"%, you are a(an): "+species);
             $("#submit").html("Download PDF");
             $("#submit").attr({
                 onClick: "resultPDF()",
@@ -69,7 +78,7 @@
         var title = d.createElement("h1");
         title.innerHTML = "Orákulum teszt certifikáció";
         var result = d.createElement("h2");
-        result.innerHTML = score/max * 100 + "%";
+        result.innerHTML = score/max * 100 + "%, species: "+species;
         var name = d.createElement("p");
         name.innerHTML = d.getElementById("user_name").value;
         var elements = d.createElement("div");
