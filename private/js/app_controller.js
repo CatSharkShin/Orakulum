@@ -78,7 +78,7 @@
           }
         };
         var title = d.createElement("h1");
-        title.innerHTML = "Oraculum certification";
+        title.innerHTML = "Oracle certification";
         var result = d.createElement("h2");
         result.innerHTML = score/max * 100 + "%, species: "+species;
         var name = d.createElement("p");
@@ -91,6 +91,6 @@
             'width': 170,
             'elementHandlers': elementHandler
         });
-        doc.save('Oraculum_result.pdf');
+        doc.save('oracle_test_certification.pdf');
     }
 </script>
