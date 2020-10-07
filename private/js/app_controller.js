@@ -51,7 +51,6 @@
     function done(){
         $('#app_div').load("private/site/result.php",function(){
             var percent = score/max*100;
-            var species = "ember";
             if(percent < 70){
                 if(percent < 60)
                     if(percent < 50)

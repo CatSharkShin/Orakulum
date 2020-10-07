@@ -78,6 +78,7 @@
         var currApp = 0;
         var score = 0;
         var max = 0;
+        var species = "human";
         loadNextApp(d.getElementById('app_div'));
     </script>
 </body>
