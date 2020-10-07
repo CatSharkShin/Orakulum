@@ -7,10 +7,10 @@
         //apps: app names from the php AppNames var
         //currApp: current App(0->1...)
         //eval(apps[currApp]+".checkInput()")
-        appScore = eval(apps[currApp]+".checkInput(app_container)");
-        score += appScore["score"];
-        max += appScore["max"];
         if(currApp + 1 < apps.length){
+            appScore = eval(apps[currApp]+".checkInput(app_container)");
+            score += appScore["score"];
+            max += appScore["max"];
             currApp++;
             loadNextApp(app_container);
         }else{

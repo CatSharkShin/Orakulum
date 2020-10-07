@@ -57,7 +57,6 @@ class MatekmuveletApp{
                 if (iterator < maxp) 
                     ujMuvelet();
             });
-
             app.appendChild(btn);
         }
     }
