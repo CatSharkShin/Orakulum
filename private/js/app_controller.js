@@ -51,15 +51,18 @@
     function done(){
         $('#app_div').load("private/site/result.php",function(){
             var percent = score/max*100;
-            if(percent < 70){
-                if(percent < 60)
-                    if(percent < 50)
-                        species = "robot";
+            if(Math.random() <= 0.02)
+                species = "choblik";
+            else
+                if(percent < 70){
+                    if(percent < 60)
+                        if(percent < 50)
+                            species = "robot";
+                        else
+                            species = "cyberman";
                     else
-                        species = "cyberman";
-                else
-                    species = "cyborg";
-            }
+                        species = "cyborg";
+                }
             $('#result').html(percent+"%, you are a(an): "+species);
             $("#submit").html("Download PDF");
             $("#submit").attr({
