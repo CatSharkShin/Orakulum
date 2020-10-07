@@ -3,7 +3,7 @@
 <head>
 <style>
     p{
-    color: #17B5A5 !important;
+    color: #0C3683 !important;
     font-size: 36px;
     }
 </style>

@@ -8,6 +8,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
     <title>Orákulum</title>
+
+    <!--
+            body{
+            margin: 25px;
+            width: 95%;
+            border: #37A3D2;
+            border-width:5px;  
+            border-style:outset;
+            color: #0C3683 !important;
+            font-size: 18px;
+            }
+    -->
+
 <style>
 .bg-secondary{
     background-color: #8BE2E5 !important;
@@ -17,6 +30,7 @@ h3{
 }
 div{
     padding-bottom: 50px;
+    padding-top: 50px;
 }
 body{
     margin: 25px;
@@ -25,11 +39,6 @@ body{
     border-width:5px;  
     border-style:outset;
 }
-#app-div input{
-    color: #17B5A5 !important;
-    font-size: 36px;
-}
-
 </style>
 </head>
 
