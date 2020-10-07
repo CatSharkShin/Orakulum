@@ -14,9 +14,7 @@
             currApp++;
             loadNextApp(app_container);
         }else{
-            app_container.innerHTML = "Gratu kész, score: "+score+"/"+max;
-            d.getElementById("submit").innerHTML = "Nyomtatás";
-               
+            done();
         }
     }
     function loadNextApp(app_container){
@@ -49,5 +47,39 @@
                 );
             }
         });
+    }
+    function done(){
+        $('#app_div').load("private/site/result.php",function(){
+            var percent = score/max*100;
+            var species;
+            $('#result').html(percent+"%, you are a(an): ");
+            $("#submit").html("Download PDF");
+            $("#submit").attr({
+                onClick: "resultPDF()",
+            });
+        });
+    }
+    function resultPDF(){
+        var doc = new jsPDF();
+        var elementHandler = {
+          '#ignorePDF': function (element, renderer) {
+            return true;
+          }
+        };
+        var title = d.createElement("h1");
+        title.innerHTML = "Orákulum teszt certifikáció";
+        var result = d.createElement("h2");
+        result.innerHTML = score/max * 100 + "%";
+        var name = d.createElement("p");
+        name.innerHTML = d.getElementById("user_name").value;
+        var elements = d.createElement("div");
+        elements.appendChild(title);
+        elements.appendChild(result);
+        elements.appendChild(name);
+        doc.fromHTML(elements,15,15,{
+            'width': 170,
+            'elementHandlers': elementHandler
+        });
+        doc.save('Oraculum_result.pdf');
     }
 </script>

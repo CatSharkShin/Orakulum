@@ -1,0 +1,46 @@
+Követelmény specifikáció:
+
+Praktikusan összefűzött tesztek,
+
+
+Certifikáció nyomtatás:
+-Az "Orákulum" teszt sikeres teljesítéséért
+kapott certifikációt ki lehet nyomtatni, melyen a
+készítők aláírása szerepel. A kinyomtatni kívánt
+certifikáción szereplő nevet előtte kiválaszthatja
+a felhasználó. Ebből fakadóan, a certifikáción a
+felhasználó által megadott név, a készítők aláírása,
+és a teszt neve.
+
+Kép kiválasztás:
+-Egy adott téma vagy szempont alapján a felhasználónak
+ki kell választania a megfelelő képet. A megadott képek 
+között lesznek képek melyek megfelelnek a kiválasztási 
+szempontnak, és lesznek olyanok, melyek hasonló környezetből 
+származnak, azonban a megadott kiválasztási szempontnak
+nem felelnek meg.
+
+Matematikai művelet elvégzése:
+-A felhasználónak egy véletlenszerűen generált művelet
+eredményét kell helyesen megadnia. A generált műveletek
+összeadás, kivonás és szorzás lehetnek.
+-A generált művelet két számból, és a fent említett
+műveletek egyik operátorából áll.
+
+Kipipálási készség tesztelő:
+-A felhasználónak egy "hibásan" működő jelölőnégyzetet 
+kell bepipálnia.
+-"hibás" kifejtése: A jelölőnégyzet megnyomásakor előre
+definiált esélye van a felhasználónak, hogy az pipálás
+ténylegesen megtörténjen. Ennek fényében, a felhasználónak
+lehet, hogy többször is meg kell nyomnia a jelölőnégyzetet,
+hogy a pipa megjelenjen. Ámbár, a jelölőnégyzet sikeres
+bepipálása után, a pipa megnyomásával el lehet tüntetni
+a pipát, így a felhasználó a jelölőnégyzet sikeres 
+bepipálása után is elronthatja eddigi erőfeszítését.
+
+
+
+
+
+
