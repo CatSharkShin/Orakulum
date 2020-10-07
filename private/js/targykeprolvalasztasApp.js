@@ -11,18 +11,18 @@ class TargykeprolvalasztasApp{
 	    
 	    // Tömb, melyben a képen szereplő tárgyak vannak:
 	    var objOnPic = [
-	    	"TV", "Zászló", "Lego",
-	    	"Szék", "Pohár", "Könyv",
-	    	"Függöny", "Ajtó", "Laptop"
+	    	"TV", "Flag", "Lego",
+	    	"Chair", "Glass", "Book",
+	    	"Curtain", "Door", "Laptop"
 	    	];
 
 	    stringShuffleInArray(objOnPic);
 	    
 	    // Tömb, melyben a képen NEM szereplő tárgyak vannak:
 	    var objNotOnPic = [
-	    	"Csuklósbusz", "Kutya", "Váza", 
-	    	"Seprű", "Kolbász", "Távcső", 
-	    	"Sajt", "Faliújság", "Porsche"
+	    	"Bus", "Dog", "Vase", 
+	    	"Broom", "Sausage", "Telescope", 
+	    	"Cheese", "Poster", "Porsche"
 	    	];
 
 	    stringShuffleInArray(objNotOnPic);

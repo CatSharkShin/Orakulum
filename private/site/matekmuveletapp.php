@@ -9,6 +9,6 @@
 </style>
 </head>
 <body>
-<p>Végezd el a műveletet!</p>
+	<p>Solve the operations below!</p>
 </body>
 </html>

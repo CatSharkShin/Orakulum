@@ -9,6 +9,6 @@
 </style>
 </head>
 <body>
-<p>Válaszd ki a képeket, amelyeken busz látható!</p>
+<p>Click on all the pictures that show bus!</p>
 </body>
 </html>

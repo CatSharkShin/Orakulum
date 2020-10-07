@@ -9,7 +9,7 @@
 </style>
 </head>
 <body>
-<p>Válaszd ki a felsorolt tárgyak közül a képen szereplőket!</p>
+<p>Select the items that are in the picture!</p>
 <img id="objSelPic" src="public/pics/targyvalasztas.jpg" alt="targyvalasztas">
 <div id="objSelDiv"></div>
 </body>
