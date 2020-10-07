@@ -35,10 +35,12 @@ class MatekmuveletApp{
 
             var x = d.createElement("INPUT");
             x.setAttribute("type", "text");
+            x.setAttribute("class", "btn btn-info");
             app.appendChild(x);
         
             var btn = d.createElement("BUTTON");
             btn.innerHTML = "Oké!";
+            btn.setAttribute("class", "btn btn-info");
             btn.addEventListener("click", function(){
 
                 app.removeChild(btn);
