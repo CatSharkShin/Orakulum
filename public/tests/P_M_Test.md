@@ -1,6 +1,7 @@
-Tesztelő: Palotai Marcell Martin
-Időpont: 2020.10.07 16:45
-Böngésző: Opera Gx
+
+| Tesztelő: Palotai Marcell Martin | Időpont: 2020.10.07 16:45 | Böngésző: Opera Gx |
+| -------------------------------------|----------|-------------------------|
+<br>
 
 | Időpont | Teszt                | Eredmény | Megjegyzés                                                            |
 |:-------:|----------------------|----------|-----------------------------------------------------------------------|
