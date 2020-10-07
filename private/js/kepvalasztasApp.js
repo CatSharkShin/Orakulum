@@ -45,7 +45,7 @@
             	picsTable += '<tr>';
 
             	for (var col=0; col<tRowCol; col++){
-            		picsTable += '<td id=picSelect' + imgNum + 
+            		picsTable += '<td class=picSelectClass id=picSelect' + imgNum + 
             			' height=' + picSize + 'px width=' + picSize +'px></td>';
             		imgNum++;
             	}
@@ -53,7 +53,7 @@
             	picsTable += '</tr>';
             }
 
-            picsTable = '<table border=7px id=imgTable>' + picsTable + '</table>';
+            picsTable = '<table id=imgTable>' + picsTable + '</table>';
             $(picsTable).appendTo(app); // tábla megjelenítése az oldalon
 
             // Képek megjelenítése a táblában:

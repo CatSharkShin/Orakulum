@@ -1,0 +1,16 @@
+#imgTable {
+	display: block;
+	margin: auto;
+	width: 400px;
+	height: 400px;
+	border-collapse: collapse;
+}
+
+#imgTable td {
+	border: 5px solid black;
+	border-color: #0C3683;
+}
+
+.picSelectClass {
+	background-color: white;
+}
