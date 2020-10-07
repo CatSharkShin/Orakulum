@@ -41,7 +41,7 @@
         border-style:outset;
     }
     </style>
-    
+
 </head>
 
 <body class="bg-secondary">

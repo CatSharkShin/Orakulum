@@ -1,3 +1,6 @@
+
+/* Képválasztós app styles: */
+
 #imgTable {
 	display: block;
 	margin: auto;
@@ -13,4 +16,38 @@
 
 .picSelectClass {
 	background-color: white;
+}
+
+/* Tárgyválasztós és checker appok kinézetei: */
+
+#objSelPic {
+	border: 10px solid black;
+	border-color: #0C3683;
+	height: 450px; 
+	width: 450px;
+}
+
+.objOnPic, .objNotOnPic, .checkbox {
+	margin: 5px;
+	height: 25px;
+	width: 25px;
+}
+
+#objSelDiv label, .checkbox_label {
+	padding-right: 5px;
+	color: #0C3683;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#checkbox {
+	margin: 5px;
+	height: 50px;
+	width: 50px;
+}
+
+.checkthis_label {
+	color: #0C3683;
+	font-size: 50px;
+	font-weight: bold;
 }

@@ -67,6 +67,12 @@ class TargykeprolvalasztasApp{
 
 			$(checkBox).appendTo("#objSelDiv");
 			$(label).appendTo("#objSelDiv");
+
+			// Sortörés minden 5. checkbox után:
+			if ((i+1) % 5 === 0) {
+				var br = document.createElement("br");
+				$(br).appendTo("#objSelDiv");
+			}
 		}
 
 	}
