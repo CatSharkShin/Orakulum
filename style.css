@@ -1,7 +1,6 @@
 
 /* Képválasztós app styles: */
 body{
-	
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
@@ -62,4 +61,10 @@ body{
 }
 .btn-info{
 	margin: 5px;
+}
+#app_div *{
+	color: #0C3683;
+}
+#app_div input[type="text"]{
+
 }

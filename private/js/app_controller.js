@@ -19,7 +19,7 @@
     }
     function loadNextApp(app_container){
         //Cleaning the div and adding a placeholder for the user to know whats happening
-        app_container.innerHTML = "Következő feladat betöltése...";
+        app_container.innerHTML = "Loading the next task...";
         //Loading the corresponding php file before running the function
         //This way you have two options to generate a "test form"
         var sitepath = "private/site/"+apps[currApp].toLowerCase()+".php";
@@ -75,7 +75,7 @@
           }
         };
         var title = d.createElement("h1");
-        title.innerHTML = "Orákulum teszt certifikáció";
+        title.innerHTML = "Oraculum certification";
         var result = d.createElement("h2");
         result.innerHTML = score/max * 100 + "%, species: "+species;
         var name = d.createElement("p");
