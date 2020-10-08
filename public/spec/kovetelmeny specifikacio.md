@@ -39,7 +39,8 @@ A mai reCaptchák minden oldalon különböznek és változóan pontosak, és ne
 - Javascript
 
 ## Jelenlegi üzleti folyamatok modellje
-A Captcha technológiák régóta velünk vannak annak érdekében, hogy a spammerek, illetve a robotok elleni küzdelemből kivegyék a részüket. Az évek során sokat fejlődtek, és az egyszerű, képfelismerésre épülő megoldásoktól eljutottak a háttérben futó, felhasználói viselkedésmintákat figyelő eljárásokig. Alkalmazásunk célja ezeknek a megoldásoknak a bővítése újabb, egyedi megoldásokkal.
+Elvégzi a felhasználó a tesztet -> jogot kap tovább lépni
+				-> nem kap jogot tovább lépni mert robotnak lett ítélve
 
 ## Igényelt üzleti folyamatok
 1. A felhasználó a főoldalon fog megismerkedni a teszt céljával és az ahhoz tartozó fontos információkkal.
