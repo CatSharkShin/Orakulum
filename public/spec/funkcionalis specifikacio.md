@@ -21,16 +21,14 @@ Utóbbi esetben a levelek kézbesíthetetlenségéről pattan vissza email arra 
 amelyet a weboldal tulajdonosa megadott az űrlapnak.
 
 ## Követelménylista
-
-
-## Követelmények
-
  1. Egymás után újratöltés nélkül megjelenő feladatok
  2. Reszponzív dizájn
  3. Letisztult felhasználói felület
  4. Feladatokon belüli gyors frissítés
  5. Feladatokon belüli újratöltés nélküli működés
  6. Applikációk dinamikus megoldása
+ 
+## Követelmények
 
 ### Funkcionális követelmények:
 - **Nyomtatás:** Nyomtatásra kész formátumban, PDF kiterjesztésben, a felhasználó az elért eredményéről kap tájékoztatást.
